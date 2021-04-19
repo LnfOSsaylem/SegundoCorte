@@ -1,0 +1,11 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>276</x><y>20</y><w>210</w><h>190</h></coordinates><panel_attributes>Empleado
+--
+-int nHorasTrabajadas
+-double pagoHora
+
+--
+-double getSueldo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>320</y><w>210</w><h>100</h></coordinates><panel_attributes>EmpleadoComision
+--
+-double comisionVentas
+--
+-double getSueldo </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>200</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element></diagram>
