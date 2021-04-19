@@ -1,0 +1,25 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>355</x><y>20</y><w>210</w><h>140</h></coordinates><panel_attributes>Persona
+--
+-id: int
+-Nombre: String
+-Apellidos: String
+-Edad: int
+--
++Concentrarse: void
++Viajar : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>65</x><y>280</y><w>210</w><h>110</h></coordinates><panel_attributes>Futbolista
+--
+-dorsal: int
+-demarcacion: String
+--
++jugarPartido: void
++entrenar : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>635</x><y>290</y><w>210</w><h>100</h></coordinates><panel_attributes>Entrenador
+--
+-idFederacion: String
+--
++dirigirPartido: void
++dirigirEntrenamiento: void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>355</x><y>380</y><w>210</w><h>90</h></coordinates><panel_attributes>Masajista
+--
+-titulacion: String
+-aniosExperiencia: int
+--
++darMasaje(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>155</x><y>150</y><w>310</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>290;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>435</x><y>150</y><w>30</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;230</additional_attributes></element><element><id>Relation</id><coordinates><x>435</x><y>150</y><w>330</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;310;140</additional_attributes></element></diagram>

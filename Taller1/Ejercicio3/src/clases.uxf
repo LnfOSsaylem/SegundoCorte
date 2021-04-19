@@ -1,0 +1,20 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>240</x><y>0</y><w>210</w><h>140</h></coordinates><panel_attributes>Persona
+--
+-nombre: String
+-apellidos: String
+--
++getNombre() : String 
++setNombre() : void
++getApellidos(): String
++setApellidos(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>220</y><w>210</w><h>100</h></coordinates><panel_attributes>Profesor
+--
+-idProfesor: String
+--
++getIdProfesor() : String 
++setIdProfesor() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>440</y><w>210</w><h>90</h></coordinates><panel_attributes>ProfesorInterino
+--
+-Date fechaIncorporacion;
+--
++getFechaIncorporacion() : Date 
++setFechaIncorporacion(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>130</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>310</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
