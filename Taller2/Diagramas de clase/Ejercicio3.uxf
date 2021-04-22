@@ -1,0 +1,46 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>252</x><y>0</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Coloreable
+--
+
+--
++abstract void cambiaColor(String c)
++abstract String queColor()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>252</x><y>140</y><w>210</w><h>180</h></coordinates><panel_attributes>&lt;&lt;AbstractClass&gt;&gt;
+Figura
+--
+-String color
+--
++Figura()
++Figura(String c)
++String getColor()
++abstract void dibujar()
++abstract void borrar()
++abstract String queColor()
++void cambiaColor(String c)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>100</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>12</x><y>350</y><w>170</w><h>130</h></coordinates><panel_attributes>Triangulo
+--
+
+--
++void dibujar()
++void borrar()
++String queColor()
++void cambiaColor(String c)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>252</x><y>360</y><w>180</w><h>130</h></coordinates><panel_attributes>Cuadrado
+--
+
+--
++void dibujar()
++void borrar()
++String queColor()
++void cambiaColor(String c)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>512</x><y>360</y><w>160</w><h>120</h></coordinates><panel_attributes>Circulo
+--
+
+--
++void dibujar()
++void borrar()
++String queColor()
++void cambiaColor(String c)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>42</x><y>230</y><w>230</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>310</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>452</x><y>230</y><w>130</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>Pizarra
+--
+-ArrayList&lt;Figura&gt; figuras
+--
++void agregarFigura(Figura f)
++void dibujarFiguras()
++void borrarFiguras()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>110</y><w>180</w><h>50</h></coordinates><panel_attributes>Tiene, 1..*
+lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;30</additional_attributes></element></diagram>

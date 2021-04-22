@@ -1,0 +1,32 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>550</x><y>39</y><w>290</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Trabajador
+--
++abstract double getLiquidacion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>84</y><w>290</w><h>120</h></coordinates><panel_attributes>&lt;&lt;AbstractClass&gt;&gt;
+Empleado
+--
+-final double bonificacion
+--
++Empleado()
++getBonificacion()
++abstract double getLiquidacion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>164</y><w>320</w><h>130</h></coordinates><panel_attributes>Docente
+--
+-int nHoras
+-final double pagoH
+-final double bonificacion
+--
++Docente()
++Docente(int nHoras)
++double getLiquidacion()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>104</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>24</y><w>430</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>410;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>324</y><w>210</w><h>80</h></coordinates><panel_attributes>Coordinador
+--
+-final double pagoFijo
+--
++getLiquidacion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>324</y><w>210</w><h>80</h></coordinates><panel_attributes>Secretaria
+--
+-final double pagoFijo
+--
++getLiquidacion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>324</y><w>210</w><h>80</h></coordinates><panel_attributes>Asistente
+--
+-final double pagoFijo
+--
++getLiquidacion()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>200</y><w>250</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>230;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>200</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>200</y><w>260</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;120</additional_attributes></element></diagram>
